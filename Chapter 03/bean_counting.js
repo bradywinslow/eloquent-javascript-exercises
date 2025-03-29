@@ -9,7 +9,8 @@ function countChar(string, char) {
 }
 
 function countBs(string) {
-    return countChar(string, 'k');
+    return countChar(string, "B");
 }
 
-console.log(countBs("kakkerlak"));
+console.log(countBs("BOB"));
+console.log(countChar("kakkerlak", "k"));
