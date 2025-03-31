@@ -1,15 +1,15 @@
-function countChar(string, char) {
+export function countChar(str, char) {
     let count = 0;
-    for (let i = 0; i < string.length; i++) {
-        if (string[i] === char) {
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] === char) {
             count++;
         }
     }
     return count;
 }
 
-function countBs(string) {
-    return countChar(string, "B");
+export function countBs(str) {
+    return countChar(str, "B");
 }
 
 console.log(countBs("BOB"));
