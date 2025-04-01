@@ -1,0 +1,23 @@
+TN:
+SF:Chapter 03/minimum.js
+FN:1,min
+FN:5,min2
+FNF:2
+FNH:2
+FNDA:3,min
+FNDA:3,min2
+DA:2,3
+DA:6,3
+DA:7,2
+DA:9,1
+DA:13,1
+DA:14,1
+DA:16,1
+DA:17,1
+LF:8
+LH:8
+BRDA:6,0,0,2
+BRDA:6,0,1,1
+BRF:2
+BRH:2
+end_of_record

@@ -1,8 +1,8 @@
-function min(num1, num2) {
+export function min(num1, num2) {
     return Math.min(num1, num2);
 }
 
-function min2(a, b) {
+export function min2(a, b) {
     if (a < b) {
         return a;
     } else {
